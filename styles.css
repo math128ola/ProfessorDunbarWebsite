@@ -1,0 +1,367 @@
+body {
+  height: 100%;
+  margin: 0;
+  background-color: #f7f7f7;
+}
+
+h2 {
+  font-weight: bolder;
+}
+
+h4 {
+  font-size: 1.5rem;
+  font-family: 'Montserrat', serif;
+  color: #11999E;
+  margin-bottom: 0;
+}
+
+/* Navigation Bar */
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 0;
+}
+
+.nav-item {
+  padding: 0 15px;
+}
+
+.nav-link {
+  font-size: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: lighter;
+}
+
+.navbar {
+  margin-bottom: 20px;
+}
+
+/* Title image screen */
+
+.title {
+  padding: 2.5% 7%;
+  background-color: #cFFFFE;
+}
+
+.math-image {
+  height: 100%;
+  width: 100%;
+}
+
+.main-wrapper {
+  border: 3px solid black;
+}
+
+.background-header {
+  /* The image used */
+  background-image: url("photographer.jpg");
+
+  /* Add the blur effect */
+  filter: blur(6px);
+  -webkit-filter: blur(8px);
+
+  /* Full height */
+  height: 500px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-wrapper {
+  position: relative;
+}
+
+/* Position text in the middle of the page/image */
+.text-header {
+  background-color: #CFFFFE;
+  background-color: rgba(0,0,0, 0.4); /* Black see-through */
+  color: white;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  border: 2px solid #f1f1f1;
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 60%;
+  padding: 20px;
+  text-align: center;
+}
+
+.info-wrapper {
+  width: 87%;
+  box-shadow: 0 7px 5px 5px rgba(0,0,0, 0.4);
+  margin: auto;
+}
+
+.about, .course, .research, .personal, .bake, .contact{
+  text-align: center;
+  padding: 1%;
+  font-size: 2.2em;
+  font-family: 'Montserrat', serif;
+  color: #006a71;
+}
+
+/* Content in summary */
+/* Main information and summary texts */
+
+.Profile {
+  padding: 1.5%;
+  background-color: #FFF;
+}
+
+.description {
+  width: 60%;
+  margin: auto;
+  text-align: left;
+  font-family: 'Montserrat', serif;
+  line-height: 2;
+}
+
+.summary-subtitle {
+  font-size: 1.3rem;
+}
+
+/* Professor Dunbar image */
+.prof-dunbar {
+  float: right;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 568px) {
+  .prof-dunbar {
+    clear: left;
+    margin-bottom: 20px;
+  }
+}
+
+/* course list content  */
+.course-info {
+  width: 45%;
+  margin: auto;
+}
+.course-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.list-item {
+  font: 200 20px/1.5 "Montserrat", sans-serif;
+  font-size: 1.4rem;
+  border-bottom: 1px solid #ccc;
+  padding: 1.5%;
+}
+.list-item:last-child {
+  border: none;
+}
+.list-item:hover {
+  font-size: 1.6rem;
+}
+
+.academic-section {
+  background-color: #CFFFFE;
+  padding: 2.5%;
+}
+
+/* Images for content in info-wrapper  */
+.icon {
+  width: 20%;
+  margin-right: 30px;
+  float: left;
+}
+
+/* Personal section  */
+.personal-section {
+  padding: 1.5%;
+  background-color: #FFF;
+}
+
+.describe {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+}
+
+.personal-info {
+  width: 60%;
+  margin: auto;
+  text-align: left;
+  font-family: 'Montserrat', serif;
+  line-height: 2;
+}
+
+.personal-img {
+  width: 60%;
+  display: block;
+  margin: 5% auto;
+}
+
+/* baking section  */
+
+.baking-section {
+  background-color: #CFFFFE;
+  padding: 2%;
+}
+
+.baking-img {
+  width: 20%;
+  margin: 7%;
+}
+
+.baking-img.sizeUp {
+  width: 35%;
+}
+
+/* Carousel styles  */
+.carousel-item {
+  text-align: center;
+  padding: 0;
+}
+
+/* Making the carousel arrows and indicators contrast with the background  */
+.carousel-indicators {
+  filter: invert(100%);
+}
+
+.carousel-control-prev {
+  filter: invert(100%);
+}
+
+.carousel-control-next {
+  filter: invert(100%);
+}
+
+/* changing image size  */
+.pie {
+  width: 60%;
+}
+
+/* footer section */
+.foot-wrapper {
+  background-color: #292b2c;
+
+  text-align: center;
+  padding: 1rem;
+}
+
+.copyright {
+  text-align: center;
+  font-size: 0.75rem;
+  font-family: 'Montserrat', serif;
+  color: #F7f7F7;
+}
+
+/* footer icons  */
+.ico {
+  color: #f7f7f7;
+  margin: 0 1rem 10px;
+}
+
+/* contact-section */
+
+.contact-info {
+  text-align: center;
+  font-family: 'Montserrat', serif;
+  line-height: 2;
+  margin-bottom: 4%;
+}
+
+/************************** */
+/*        CEMC.html         */
+/************************** */
+
+.cemc-img {
+  width: 30%;
+  padding: 2%;
+}
+
+.cemc-title {
+  text-align: center;
+}
+
+.cemc-info {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.3rem;
+  width: 75%;
+  margin: 2% auto;
+}
+
+/* cemc content section  */
+.cemc-content {
+  background-color: #fff;
+  text-align: center;
+  padding: 2% 7%;
+}
+
+/* cemc buttons  */
+.cemc-btns {
+  margin: 1rem 2rem;
+}
+
+/* ************CV************** */
+
+.main {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.3rem;
+  width: 75%;
+  margin: 2% auto;
+}
+
+.btns {
+ margin: 1rem 2rem;
+}
+
+
+/* Crowdmark */
+
+.title {
+  text-align: center;
+}
+
+.info {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.3rem;
+  width: 75%;
+  margin: 2% auto;
+}
+
+.content {
+  background-color: #fff;
+  text-align: center;
+  padding: 2% 7%;
+}
+
+
+.cemc-btns {
+  margin: 1rem 2rem;
+}
+
+
+/* ************Music************** */
+.reverb-comment {
+  padding:20px;
+  text-align: center;
+  }
+.container{
+  padding:20px;
+  width:auto;
+  height:auto;
+  display:grid;
+  grid-template-columns: auto auto;
+  grid-row: auto auto;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  justify-content: space-evenly;
+}
+.mixcord{
+    padding:20px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+} 
